@@ -20,4 +20,9 @@
 	<section name="ClasspathContainerSelectionPage">
 		<item value="5" key="index"/>
 	</section>
+	<section name="NewHtmlCreationWizardPage">
+		<item value="Default HTML template" key="templatezh_CN"/>
+		<item value="/TetsSelenium/src/Demo" key="filePath"/>
+		<item value="HTML 5" key="doctype"/>
+	</section>
 </section>
