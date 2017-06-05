@@ -11,7 +11,6 @@ public class TestButton {
 	
 	@Test
 	public void test() {
-		fail("Not yet implemented");
 	}
 
 }

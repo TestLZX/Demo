@@ -2,34 +2,34 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18236" started-at="2017-05-24T15:33:49Z" finished-at="2017-05-24T15:34:07Z">
+  <suite name="Default suite" duration-ms="29318" started-at="2017-05-27T11:19:33Z" finished-at="2017-05-27T11:20:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18236" started-at="2017-05-24T15:33:49Z" finished-at="2017-05-24T15:34:07Z">
+    <test name="Default test" duration-ms="29318" started-at="2017-05-27T11:19:33Z" finished-at="2017-05-27T11:20:03Z">
       <class name="Demo.testXpan">
-        <test-method status="PASS" signature="serUP()" name="serUP" is-config="true" duration-ms="11295" started-at="2017-05-24T15:33:49Z" finished-at="2017-05-24T15:34:00Z">
+        <test-method status="PASS" signature="serUP()" name="serUP" is-config="true" duration-ms="15746" started-at="2017-05-27T11:19:33Z" finished-at="2017-05-27T11:19:49Z">
         </test-method>
-        <test-method status="FAIL" signature="testGoogole()" name="testGoogole" duration-ms="6460" started-at="2017-05-24T15:34:00Z" finished-at="2017-05-24T15:34:07Z">
+        <test-method status="FAIL" signature="testGoogole()" name="testGoogole" duration-ms="13147" started-at="2017-05-27T11:19:49Z" finished-at="2017-05-27T11:20:02Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: {"method":"xpath","selector":"//*[@id=\"ist-ib\"]"}
-Command duration or timeout: 286 milliseconds
+Command duration or timeout: 301 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
 System info: host: 'lzx', ip: '192.168.14.1', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.2', java.version: '1.6.0_13'
 *** Element info: {Using=xpath, value=//*[@id="ist-ib"]}
-Session ID: 27154ff2-8bb0-4e3f-8911-d0caf2f271a2
+Session ID: c57a6cc5-a4e6-4b00-974a-c9c6f11a5ec9
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=36.0.4, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id=\"ist-ib\"]"}
-Command duration or timeout: 286 milliseconds
+Command duration or timeout: 301 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
 System info: host: 'lzx', ip: '192.168.14.1', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.2', java.version: '1.6.0_13'
 *** Element info: {Using=xpath, value=//*[@id="ist-ib"]}
-Session ID: 27154ff2-8bb0-4e3f-8911-d0caf2f271a2
+Session ID: c57a6cc5-a4e6-4b00-974a-c9c6f11a5ec9
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=36.0.4, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
@@ -74,16 +74,16 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
 System info: host: 'lzx', ip: '192.168.14.1', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.2', java.version: '1.6.0_13'
 Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/lzx10/AppData/Local/Temp/anonymous5425839461065295338webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
-	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/lzx10/AppData/Local/Temp/anonymous5425839461065295338webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10280)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/lzx10/AppData/Local/Temp/anonymous5425839461065295338webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/lzx10/AppData/Local/Temp/anonymous5425839461065295338webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12279)
-	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/lzx10/AppData/Local/Temp/anonymous5425839461065295338webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12221)
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/lzx10/AppData/Local/Temp/anonymous119356918467162748webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/lzx10/AppData/Local/Temp/anonymous119356918467162748webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10280)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/lzx10/AppData/Local/Temp/anonymous119356918467162748webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/lzx10/AppData/Local/Temp/anonymous119356918467162748webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12279)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/lzx10/AppData/Local/Temp/anonymous119356918467162748webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12221)
 ]]>
             </full-stacktrace>
           </exception>
         </test-method>
-        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="463" started-at="2017-05-24T15:34:07Z" finished-at="2017-05-24T15:34:07Z">
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="414" started-at="2017-05-27T11:20:02Z" finished-at="2017-05-27T11:20:03Z">
         </test-method>
       </class>
     </test>
