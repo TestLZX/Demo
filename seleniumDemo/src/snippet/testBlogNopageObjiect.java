@@ -1,0 +1,53 @@
+package snippet;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+ class testBlogNopageObjiect {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		WebDriver driver=new FirefoxDriver();
+		
+		//登陆
+		driver.get("https://www.cnblogs.com/");
+		driver.findElement(By.partialLinkText("登录")).click();
+	
+		//等待出现登陆页面
+		WebDriverWait wait=new WebDriverWait(driver,300);
+		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("input1")));
+		System.out.println("11111");
+		//登陆账号4
+		driver.findElement(By.id("input1")).sendKeys("sbdk");
+		System.out.println("222");
+
+		driver.findElement(By.id("input2")).sendKeys("1q2w!Q@W");
+		driver.findElement(By.id("signin")).click();
+		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+		
+		//message page
+		driver.findElement(By.partialLinkText("短消息")).click();
+		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+		//send message
+		driver.findElement(By.linkText("撰写新短消息")).click();
+		driver.manage().timeouts().implicitlyWait(3,TimeUnit.SECONDS);
+		driver.findElement(By.id("txtIncept")).sendKeys("seleniumpageobject");
+		driver.findElement(By.id("txtTitle")).sendKeys("标题：");
+		driver.findElement(By.id("txtContent")).sendKeys("内容： ");
+		driver.findElement(By.id("btnSend")).click();
+		//logoutwW
+		driver.findElement(By.linkText("退出")).click();
+		driver.quit();
+		
+			
+	}
+
+}

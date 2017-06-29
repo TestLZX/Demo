@@ -1,0 +1,6 @@
+package snippet;
+
+public class Snippet {
+	The method sendKeys(CharSequence...) in the type WebElement is not applicable for the arguments (WebElement)
+}
+
